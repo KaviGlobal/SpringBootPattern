@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.demo</groupId>
+  <artifactId>BlobStorageTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/com.microsoft.azure/adal4j -->
+		<dependency>
+		    <groupId>com.microsoft.azure</groupId>
+		    <artifactId>adal4j</artifactId>
+		    <version>1.6.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.nimbusds</groupId>
+			<artifactId>oauth2-oidc-sdk</artifactId>
+			<version>5.26</version>
+		</dependency>
+		<!-- Thanks for using https://jar-download.com -->
+	  
+  </dependencies>
+</project>
