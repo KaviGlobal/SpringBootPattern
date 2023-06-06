@@ -1,0 +1,26 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "The id of the employee.",
+      "name": "employeeId",
+      "type": "int"
+    },
+    {
+      "doc": "employee name",
+      "name": "employeeName",
+      "type": "string"
+    },
+    {
+     "doc": "employee address",
+      "name":"address1",
+      "type": "string",
+      "default":""
+    }
+  ],
+  "name": "employeeRecord",
+  "namespace": "com.demo.employee",
+  "type": "record"
+}
+
+

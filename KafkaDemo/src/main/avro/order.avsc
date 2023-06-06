@@ -1,0 +1,29 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "The id of the order.",
+      "name": "orderId",
+      "type": "int"
+    },
+    {
+      "doc": "Timestamp of the order.",
+      "name": "orderTime",
+      "type": "int"
+    },
+    {
+      "doc": "The address of the order.",
+      "name": "orderAddress",
+      "type": "string"
+    },
+    {
+      "doc": "The source of the order.",
+      "name": "orderSource",
+      "type": "string",
+      "default":""
+    }
+  ],
+  "name": "Order",
+  "namespace": "com.example.KafkaDemo",
+  "type": "record"
+}

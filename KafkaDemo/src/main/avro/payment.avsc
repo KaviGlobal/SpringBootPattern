@@ -1,0 +1,30 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "The id of the order.",
+      "name": "paymentId",
+      "type": "int"
+    },
+    {
+      "doc": "Timestamp of the order.",
+      "name": "paymentTime",
+      "type": "int"
+    },
+    {
+      "doc": "The address of the order.",
+      "name": "paymentAddress",
+      "type": "string"
+    },
+    {
+      "doc": "The address of the order.",
+      "name": "paymentGateway",
+      "type": "string",
+      "default":""
+    }
+    
+  ],
+  "name": "Payment",
+  "namespace": "com.example.KafkaDemo",
+  "type": "record"
+}
